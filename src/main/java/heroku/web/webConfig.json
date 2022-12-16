@@ -1,0 +1,5 @@
+{
+  "defaultBrowser": "chrome",
+  "defaultTimeout": "20",
+  "baseUrl": " http://localhost:4200/"
+}

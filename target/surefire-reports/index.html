@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-skipped">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>10 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,  13 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.api.ApiTest" class="method navigator-link" hash-for-method="APIGivesCorretData">APIGivesCorretData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.checkbox.SpelerslijstTest" class="method navigator-link" hash-for-method="checkAanvallersTest">checkAanvallersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.checkbox.SpelerslijstTest" class="method navigator-link" hash-for-method="checkKeepersTest">checkKeepersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.checkbox.SpelerslijstTest" class="method navigator-link" hash-for-method="checkMiddenveldersTest">checkMiddenveldersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.checkbox.SpelerslijstTest" class="method navigator-link" hash-for-method="checkVerdedigersTest">checkVerdedigersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.system.visual.ImageVisibleTest" class="method navigator-link" hash-for-method="homePageContainsLogoTest">homePageContainsLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.system.navigate.NavigateTests" class="method navigator-link" hash-for-method="navFromHomeToRegisterPageTest">navFromHomeToRegisterPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.system.navigate.NavigateTests" class="method navigator-link" hash-for-method="navFromHomeToSpelersPageTest">navFromHomeToSpelersPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.system.navigate.NavigateTests" class="method navigator-link" hash-for-method="navFromHomeToSpelersPageToDetailPageSpelerTest">navFromHomeToSpelersPageToDetailPageSpelerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.system.navigate.NavigateTests" class="method navigator-link" hash-for-method="navFromRegisterToHomePageTest">navFromRegisterToHomePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.checkbox.SpelerslijstTest" class="method navigator-link" hash-for-method="nothingCheckedReturnsAllPlayersTest">nothingCheckedReturnsAllPlayersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.system.visual.ImageVisibleTest" class="method navigator-link" hash-for-method="registerPageContainsLogoTest">registerPageContainsLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="heroku.system.visual.ImageVisibleTest" class="method navigator-link" hash-for-method="spelersPageContainsLogoTest">spelersPageContainsLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">heroku.system.visual.ImageVisibleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageContainsLogoTest">
+                  </a> <!-- homePageContainsLogoTest -->
+                  <span class="method-name">homePageContainsLogoTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test checks if the homePage contains the logo of the club)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPageContainsLogoTest">
+                  </a> <!-- registerPageContainsLogoTest -->
+                  <span class="method-name">registerPageContainsLogoTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test checks if the registerpage contains the logo of the club)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="spelersPageContainsLogoTest">
+                  </a> <!-- spelersPageContainsLogoTest -->
+                  <span class="method-name">spelersPageContainsLogoTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test checks if the spelerspage contains the logo of the club)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">heroku.checkbox.SpelerslijstTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAanvallersTest">
+                  </a> <!-- checkAanvallersTest -->
+                  <span class="method-name">checkAanvallersTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test controls if the attackers checkbox works)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkKeepersTest">
+                  </a> <!-- checkKeepersTest -->
+                  <span class="method-name">checkKeepersTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test controls if the keepers checkbox works)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMiddenveldersTest">
+                  </a> <!-- checkMiddenveldersTest -->
+                  <span class="method-name">checkMiddenveldersTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test controls if the middfielders checkbox works)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkVerdedigersTest">
+                  </a> <!-- checkVerdedigersTest -->
+                  <span class="method-name">checkVerdedigersTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test controls if the defenders checkbox works)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nothingCheckedReturnsAllPlayersTest">
+                  </a> <!-- nothingCheckedReturnsAllPlayersTest -->
+                  <span class="method-name">nothingCheckedReturnsAllPlayersTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">heroku.system.navigate.NavigateTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navFromHomeToRegisterPageTest">
+                  </a> <!-- navFromHomeToRegisterPageTest -->
+                  <span class="method-name">navFromHomeToRegisterPageTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test checks if the user can navigate from the homepage to the registerpage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navFromHomeToSpelersPageTest">
+                  </a> <!-- navFromHomeToSpelersPageTest -->
+                  <span class="method-name">navFromHomeToSpelersPageTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test checks if the user can navigate from the homepage to spelerspage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navFromHomeToSpelersPageToDetailPageSpelerTest">
+                  </a> <!-- navFromHomeToSpelersPageToDetailPageSpelerTest -->
+                  <span class="method-name">navFromHomeToSpelersPageToDetailPageSpelerTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test checks if the user can navigate from the homepage to the spelerspage to the detailpage of a player)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navFromRegisterToHomePageTest">
+                  </a> <!-- navFromRegisterToHomePageTest -->
+                  <span class="method-name">navFromRegisterToHomePageTest</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test checks if the user can navigate from the registerpage to homepage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">heroku.api.ApiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="APIGivesCorretData">
+                  </a> <!-- APIGivesCorretData -->
+                  <span class="method-name">APIGivesCorretData</span>
+                  <div class="stack-trace">java.lang.UnsupportedClassVersionError: heroku/web/pageObjects/AllPages has been compiled by a more recent version of the Java Runtime (class file version 62.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at heroku.hooks.DefaultHooks.setup(DefaultHooks.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test controls if the API and the frontend show the same data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;heroku.api.ApiTest&quot;/&gt;
+      &lt;class name=&quot;heroku.api.RestAPITest&quot;/&gt;
+      &lt;class name=&quot;heroku.checkbox.SpelerslijstTest&quot;/&gt;
+      &lt;class name=&quot;heroku.system.navigate.NavigateTests&quot;/&gt;
+      &lt;class name=&quot;heroku.system.visual.ImageVisibleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">API</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">APIGivesCorretData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Attackers</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkAanvallersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Defenders</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkVerdedigersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Home</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">homePageContainsLogoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navFromRegisterToHomePageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Image</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">homePageContainsLogoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">registerPageContainsLogoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">spelersPageContainsLogoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Keepers</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkKeepersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Middfielders</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkMiddenveldersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Nav</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">navFromHomeToRegisterPageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navFromHomeToSpelersPageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navFromHomeToSpelersPageToDetailPageSpelerTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navFromRegisterToHomePageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Register</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">navFromHomeToRegisterPageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">registerPageContainsLogoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Spelers</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">APIGivesCorretData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkAanvallersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkKeepersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkMiddenveldersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkVerdedigersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navFromHomeToSpelersPageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navFromHomeToSpelersPageToDetailPageSpelerTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">nothingCheckedReturnsAllPlayersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">spelersPageContainsLogoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'APIGivesCorretData')
+data.setCell(0, 2, 'heroku.api.ApiTest')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registerPageContainsLogoTest')
+data.setCell(1, 2, 'heroku.system.visual.ImageVisibleTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkVerdedigersTest')
+data.setCell(2, 2, 'heroku.checkbox.SpelerslijstTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'navFromHomeToRegisterPageTest')
+data.setCell(3, 2, 'heroku.system.navigate.NavigateTests')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'navFromHomeToSpelersPageToDetailPageSpelerTest')
+data.setCell(4, 2, 'heroku.system.navigate.NavigateTests')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'navFromRegisterToHomePageTest')
+data.setCell(5, 2, 'heroku.system.navigate.NavigateTests')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkAanvallersTest')
+data.setCell(6, 2, 'heroku.checkbox.SpelerslijstTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'homePageContainsLogoTest')
+data.setCell(7, 2, 'heroku.system.visual.ImageVisibleTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'nothingCheckedReturnsAllPlayersTest')
+data.setCell(8, 2, 'heroku.checkbox.SpelerslijstTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkKeepersTest')
+data.setCell(9, 2, 'heroku.checkbox.SpelerslijstTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'navFromHomeToSpelersPageTest')
+data.setCell(10, 2, 'heroku.system.navigate.NavigateTests')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkMiddenveldersTest')
+data.setCell(11, 2, 'heroku.checkbox.SpelerslijstTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'spelersPageContainsLogoTest')
+data.setCell(12, 2, 'heroku.system.visual.ImageVisibleTest')
+data.setCell(12, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">heroku.system.visual.ImageVisibleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">heroku.checkbox.SpelerslijstTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">heroku.system.navigate.NavigateTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">heroku.api.ApiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">APIGivesCorretData</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">heroku.checkbox.SpelerslijstTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkAanvallersTest</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkKeepersTest</span>
+                <span class="method-start">103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkMiddenveldersTest</span>
+                <span class="method-start">104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkVerdedigersTest</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">nothingCheckedReturnsAllPlayersTest</span>
+                <span class="method-start">106 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">heroku.system.navigate.NavigateTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">navFromHomeToRegisterPageTest</span>
+                <span class="method-start">108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navFromHomeToSpelersPageTest</span>
+                <span class="method-start">110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navFromHomeToSpelersPageToDetailPageSpelerTest</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navFromRegisterToHomePageTest</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">heroku.system.visual.ImageVisibleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homePageContainsLogoTest</span>
+                <span class="method-start">114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPageContainsLogoTest</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">spelersPageContainsLogoTest</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">heroku.api.ApiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

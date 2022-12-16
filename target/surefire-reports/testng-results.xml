@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="11" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-16T09:13:38 CET" name="Surefire suite" finished-at="2022-12-16T09:15:34 CET" duration-ms="115976">
+    <groups>
+      <group name="Middfielders">
+        <method signature="SpelerslijstTest.checkMiddenveldersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" name="checkMiddenveldersTest" class="heroku.checkbox.SpelerslijstTest"/>
+      </group> <!-- Middfielders -->
+      <group name="Keepers">
+        <method signature="SpelerslijstTest.checkKeepersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" name="checkKeepersTest" class="heroku.checkbox.SpelerslijstTest"/>
+      </group> <!-- Keepers -->
+      <group name="Nav">
+        <method signature="NavigateTests.navFromHomeToRegisterPageTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" name="navFromHomeToRegisterPageTest" class="heroku.system.navigate.NavigateTests"/>
+        <method signature="NavigateTests.navFromHomeToSpelersPageTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" name="navFromHomeToSpelersPageTest" class="heroku.system.navigate.NavigateTests"/>
+        <method signature="NavigateTests.navFromHomeToSpelersPageToDetailPageSpelerTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" name="navFromHomeToSpelersPageToDetailPageSpelerTest" class="heroku.system.navigate.NavigateTests"/>
+        <method signature="NavigateTests.navFromRegisterToHomePageTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" name="navFromRegisterToHomePageTest" class="heroku.system.navigate.NavigateTests"/>
+      </group> <!-- Nav -->
+      <group name="Register">
+        <method signature="NavigateTests.navFromHomeToRegisterPageTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" name="navFromHomeToRegisterPageTest" class="heroku.system.navigate.NavigateTests"/>
+        <method signature="ImageVisibleTest.registerPageContainsLogoTest()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" name="registerPageContainsLogoTest" class="heroku.system.visual.ImageVisibleTest"/>
+      </group> <!-- Register -->
+      <group name="Defenders">
+        <method signature="SpelerslijstTest.checkVerdedigersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" name="checkVerdedigersTest" class="heroku.checkbox.SpelerslijstTest"/>
+      </group> <!-- Defenders -->
+      <group name="Spelers">
+        <method signature="ApiPlayerFirstNameTest.APIGivesCorrectDataFirstNamePlayer()[pri:0, instance:heroku.api.ApiPlayerFirstNameTest@4278a03f]" name="APIGivesCorrectDataFirstNamePlayer" class="heroku.api.ApiPlayerFirstNameTest"/>
+        <method signature="ApiPlayerLastNameTest.APIGivesCorrectDataLastNamePlayer()[pri:0, instance:heroku.api.ApiPlayerLastNameTest@6d2a209c]" name="APIGivesCorrectDataLastNamePlayer" class="heroku.api.ApiPlayerLastNameTest"/>
+        <method signature="ApiPlayerPositionTest.getPlayerPosition()[pri:0, instance:heroku.api.ApiPlayerPositionTest@75329a49]" name="getPlayerPosition" class="heroku.api.ApiPlayerPositionTest"/>
+        <method signature="SpelerslijstTest.checkAanvallersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" name="checkAanvallersTest" class="heroku.checkbox.SpelerslijstTest"/>
+        <method signature="SpelerslijstTest.checkKeepersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" name="checkKeepersTest" class="heroku.checkbox.SpelerslijstTest"/>
+        <method signature="SpelerslijstTest.checkMiddenveldersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" name="checkMiddenveldersTest" class="heroku.checkbox.SpelerslijstTest"/>
+        <method signature="SpelerslijstTest.checkVerdedigersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" name="checkVerdedigersTest" class="heroku.checkbox.SpelerslijstTest"/>
+        <method signature="SpelerslijstTest.nothingCheckedReturnsAllPlayersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" name="nothingCheckedReturnsAllPlayersTest" class="heroku.checkbox.SpelerslijstTest"/>
+        <method signature="NavigateTests.navFromHomeToSpelersPageTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" name="navFromHomeToSpelersPageTest" class="heroku.system.navigate.NavigateTests"/>
+        <method signature="NavigateTests.navFromHomeToSpelersPageToDetailPageSpelerTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" name="navFromHomeToSpelersPageToDetailPageSpelerTest" class="heroku.system.navigate.NavigateTests"/>
+        <method signature="ImageVisibleTest.spelersPageContainsLogoTest()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" name="spelersPageContainsLogoTest" class="heroku.system.visual.ImageVisibleTest"/>
+      </group> <!-- Spelers -->
+      <group name="Attackers">
+        <method signature="SpelerslijstTest.checkAanvallersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" name="checkAanvallersTest" class="heroku.checkbox.SpelerslijstTest"/>
+      </group> <!-- Attackers -->
+      <group name="API">
+        <method signature="ApiPlayerFirstNameTest.APIGivesCorrectDataFirstNamePlayer()[pri:0, instance:heroku.api.ApiPlayerFirstNameTest@4278a03f]" name="APIGivesCorrectDataFirstNamePlayer" class="heroku.api.ApiPlayerFirstNameTest"/>
+        <method signature="ApiPlayerLastNameTest.APIGivesCorrectDataLastNamePlayer()[pri:0, instance:heroku.api.ApiPlayerLastNameTest@6d2a209c]" name="APIGivesCorrectDataLastNamePlayer" class="heroku.api.ApiPlayerLastNameTest"/>
+        <method signature="ApiPlayerPositionTest.getPlayerPosition()[pri:0, instance:heroku.api.ApiPlayerPositionTest@75329a49]" name="getPlayerPosition" class="heroku.api.ApiPlayerPositionTest"/>
+      </group> <!-- API -->
+      <group name="Image">
+        <method signature="ImageVisibleTest.homePageContainsLogoTest()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" name="homePageContainsLogoTest" class="heroku.system.visual.ImageVisibleTest"/>
+        <method signature="ImageVisibleTest.registerPageContainsLogoTest()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" name="registerPageContainsLogoTest" class="heroku.system.visual.ImageVisibleTest"/>
+        <method signature="ImageVisibleTest.spelersPageContainsLogoTest()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" name="spelersPageContainsLogoTest" class="heroku.system.visual.ImageVisibleTest"/>
+      </group> <!-- Image -->
+      <group name="Home">
+        <method signature="NavigateTests.navFromRegisterToHomePageTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" name="navFromRegisterToHomePageTest" class="heroku.system.navigate.NavigateTests"/>
+        <method signature="ImageVisibleTest.homePageContainsLogoTest()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" name="homePageContainsLogoTest" class="heroku.system.visual.ImageVisibleTest"/>
+      </group> <!-- Home -->
+    </groups>
+    <test started-at="2022-12-16T09:13:38 CET" name="Surefire test" finished-at="2022-12-16T09:15:34 CET" duration-ms="115976">
+      <class name="heroku.api.ApiPlayerFirstNameTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.api.ApiPlayerFirstNameTest@4278a03f]" started-at="2022-12-16T09:13:38 CET" name="setup" finished-at="2022-12-16T09:13:46 CET" duration-ms="7786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="APIGivesCorrectDataFirstNamePlayer()[pri:0, instance:heroku.api.ApiPlayerFirstNameTest@4278a03f]" started-at="2022-12-16T09:13:46 CET" name="APIGivesCorrectDataFirstNamePlayer" description="This test controls if the API and the frontend show the same data" finished-at="2022-12-16T09:13:54 CET" duration-ms="8173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIGivesCorrectDataFirstNamePlayer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.api.ApiPlayerFirstNameTest@4278a03f]" started-at="2022-12-16T09:13:54 CET" name="teardown" finished-at="2022-12-16T09:13:55 CET" duration-ms="1410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- heroku.api.ApiPlayerFirstNameTest -->
+      <class name="heroku.api.ApiPlayerPositionTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.api.ApiPlayerPositionTest@75329a49]" started-at="2022-12-16T09:14:05 CET" name="setup" finished-at="2022-12-16T09:14:11 CET" duration-ms="5676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPlayerPosition()[pri:0, instance:heroku.api.ApiPlayerPositionTest@75329a49]" started-at="2022-12-16T09:14:11 CET" name="getPlayerPosition" description="This test checks if the position of the player is displayed correctly" finished-at="2022-12-16T09:14:16 CET" duration-ms="4391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlayerPosition -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.api.ApiPlayerPositionTest@75329a49]" started-at="2022-12-16T09:14:16 CET" name="teardown" finished-at="2022-12-16T09:14:17 CET" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- heroku.api.ApiPlayerPositionTest -->
+      <class name="heroku.system.visual.ImageVisibleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" started-at="2022-12-16T09:15:17 CET" name="setup" finished-at="2022-12-16T09:15:21 CET" duration-ms="4145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homePageContainsLogoTest()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" started-at="2022-12-16T09:15:21 CET" name="homePageContainsLogoTest" description="This test checks if the homePage contains the logo of the club" finished-at="2022-12-16T09:15:22 CET" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageContainsLogoTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" started-at="2022-12-16T09:15:22 CET" name="teardown" finished-at="2022-12-16T09:15:23 CET" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" started-at="2022-12-16T09:15:23 CET" name="setup" finished-at="2022-12-16T09:15:27 CET" duration-ms="4306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerPageContainsLogoTest()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" started-at="2022-12-16T09:15:27 CET" name="registerPageContainsLogoTest" description="This test checks if the registerpage contains the logo of the club" finished-at="2022-12-16T09:15:28 CET" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPageContainsLogoTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" started-at="2022-12-16T09:15:28 CET" name="teardown" finished-at="2022-12-16T09:15:29 CET" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" started-at="2022-12-16T09:15:29 CET" name="setup" finished-at="2022-12-16T09:15:32 CET" duration-ms="3738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="spelersPageContainsLogoTest()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" started-at="2022-12-16T09:15:32 CET" name="spelersPageContainsLogoTest" description="This test checks if the spelerspage contains the logo of the club" finished-at="2022-12-16T09:15:33 CET" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spelersPageContainsLogoTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.system.visual.ImageVisibleTest@96def03]" started-at="2022-12-16T09:15:33 CET" name="teardown" finished-at="2022-12-16T09:15:34 CET" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- heroku.system.visual.ImageVisibleTest -->
+      <class name="heroku.checkbox.SpelerslijstTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:17 CET" name="setup" finished-at="2022-12-16T09:14:21 CET" duration-ms="4727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkAanvallersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:21 CET" name="checkAanvallersTest" description="This test controls if the attackers checkbox works" finished-at="2022-12-16T09:14:22 CET" duration-ms="1128" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Locator must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Locator must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:631)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:628)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+at heroku.web.pageObjects.SpelersPage.ClickAanvallerCheckBox(SpelersPage.java:34)
+at heroku.checkbox.SpelerslijstTest.checkAanvallersTest(SpelerslijstTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAanvallersTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:22 CET" name="teardown" finished-at="2022-12-16T09:14:23 CET" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:23 CET" name="setup" finished-at="2022-12-16T09:14:27 CET" duration-ms="4146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkKeepersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:27 CET" name="checkKeepersTest" description="This test controls if the keepers checkbox works" finished-at="2022-12-16T09:14:29 CET" duration-ms="1229" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Locator must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Locator must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:631)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:628)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+at heroku.web.pageObjects.SpelersPage.ClickKeeperCheckBox(SpelersPage.java:61)
+at heroku.checkbox.SpelerslijstTest.checkKeepersTest(SpelerslijstTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkKeepersTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:29 CET" name="teardown" finished-at="2022-12-16T09:14:30 CET" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:30 CET" name="setup" finished-at="2022-12-16T09:14:34 CET" duration-ms="4422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkMiddenveldersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:34 CET" name="checkMiddenveldersTest" description="This test controls if the middfielders checkbox works" finished-at="2022-12-16T09:14:36 CET" duration-ms="1702" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Locator must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Locator must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:631)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:628)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+at heroku.web.pageObjects.SpelersPage.ClickMiddenvelderCheckBox(SpelersPage.java:43)
+at heroku.checkbox.SpelerslijstTest.checkMiddenveldersTest(SpelerslijstTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMiddenveldersTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:36 CET" name="teardown" finished-at="2022-12-16T09:14:36 CET" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:36 CET" name="setup" finished-at="2022-12-16T09:14:40 CET" duration-ms="3750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkVerdedigersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:40 CET" name="checkVerdedigersTest" description="This test controls if the defenders checkbox works" finished-at="2022-12-16T09:14:42 CET" duration-ms="1280" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Locator must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Locator must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:631)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:628)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+at heroku.web.pageObjects.SpelersPage.ClickVerdedigerCheckBox(SpelersPage.java:52)
+at heroku.checkbox.SpelerslijstTest.checkVerdedigersTest(SpelerslijstTest.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVerdedigersTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:42 CET" name="teardown" finished-at="2022-12-16T09:14:42 CET" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:42 CET" name="setup" finished-at="2022-12-16T09:14:47 CET" duration-ms="4688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="nothingCheckedReturnsAllPlayersTest()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:47 CET" name="nothingCheckedReturnsAllPlayersTest" finished-at="2022-12-16T09:14:48 CET" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nothingCheckedReturnsAllPlayersTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.checkbox.SpelerslijstTest@49c386c8]" started-at="2022-12-16T09:14:48 CET" name="teardown" finished-at="2022-12-16T09:14:49 CET" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- heroku.checkbox.SpelerslijstTest -->
+      <class name="heroku.system.navigate.NavigateTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:14:49 CET" name="setup" finished-at="2022-12-16T09:14:53 CET" duration-ms="3893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navFromHomeToRegisterPageTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:14:53 CET" name="navFromHomeToRegisterPageTest" description="This test checks if the user can navigate from the homepage to the registerpage" finished-at="2022-12-16T09:14:54 CET" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navFromHomeToRegisterPageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:14:54 CET" name="teardown" finished-at="2022-12-16T09:14:54 CET" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:14:54 CET" name="setup" finished-at="2022-12-16T09:14:59 CET" duration-ms="4460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navFromHomeToSpelersPageTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:14:59 CET" name="navFromHomeToSpelersPageTest" description="This test checks if the user can navigate from the homepage to spelerspage" finished-at="2022-12-16T09:14:59 CET" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navFromHomeToSpelersPageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:14:59 CET" name="teardown" finished-at="2022-12-16T09:15:00 CET" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:15:00 CET" name="setup" finished-at="2022-12-16T09:15:04 CET" duration-ms="3802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navFromHomeToSpelersPageToDetailPageSpelerTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:15:04 CET" name="navFromHomeToSpelersPageToDetailPageSpelerTest" description="This test checks if the user can navigate from the homepage to the spelerspage to the detailpage of a player" finished-at="2022-12-16T09:15:09 CET" duration-ms="5240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navFromHomeToSpelersPageToDetailPageSpelerTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:15:09 CET" name="teardown" finished-at="2022-12-16T09:15:10 CET" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:15:10 CET" name="setup" finished-at="2022-12-16T09:15:15 CET" duration-ms="4743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navFromRegisterToHomePageTest()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:15:15 CET" name="navFromRegisterToHomePageTest" description="This test checks if the user can navigate from the registerpage to homepage" finished-at="2022-12-16T09:15:16 CET" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navFromRegisterToHomePageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.system.navigate.NavigateTests@6e0dec4a]" started-at="2022-12-16T09:15:16 CET" name="teardown" finished-at="2022-12-16T09:15:17 CET" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- heroku.system.navigate.NavigateTests -->
+      <class name="heroku.api.ApiPlayerLastNameTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:heroku.api.ApiPlayerLastNameTest@6d2a209c]" started-at="2022-12-16T09:13:56 CET" name="setup" finished-at="2022-12-16T09:14:00 CET" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="APIGivesCorrectDataLastNamePlayer()[pri:0, instance:heroku.api.ApiPlayerLastNameTest@6d2a209c]" started-at="2022-12-16T09:14:00 CET" name="APIGivesCorrectDataLastNamePlayer" description="This test controls if the API and the frontend show the same data" finished-at="2022-12-16T09:14:05 CET" duration-ms="4908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIGivesCorrectDataLastNamePlayer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:heroku.api.ApiPlayerLastNameTest@6d2a209c]" started-at="2022-12-16T09:14:05 CET" name="teardown" finished-at="2022-12-16T09:14:05 CET" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- heroku.api.ApiPlayerLastNameTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

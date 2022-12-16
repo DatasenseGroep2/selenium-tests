@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 117.837 s <<< FAILURE! - in TestSuite
+checkAanvallersTest(heroku.checkbox.SpelerslijstTest)  Time elapsed: 1.158 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Locator must be set
+	at heroku.checkbox.SpelerslijstTest.checkAanvallersTest(SpelerslijstTest.java:13)
+
+checkKeepersTest(heroku.checkbox.SpelerslijstTest)  Time elapsed: 1.23 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Locator must be set
+	at heroku.checkbox.SpelerslijstTest.checkKeepersTest(SpelerslijstTest.java:31)
+
+checkMiddenveldersTest(heroku.checkbox.SpelerslijstTest)  Time elapsed: 1.703 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Locator must be set
+	at heroku.checkbox.SpelerslijstTest.checkMiddenveldersTest(SpelerslijstTest.java:19)
+
+checkVerdedigersTest(heroku.checkbox.SpelerslijstTest)  Time elapsed: 1.282 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Locator must be set
+	at heroku.checkbox.SpelerslijstTest.checkVerdedigersTest(SpelerslijstTest.java:25)
+
