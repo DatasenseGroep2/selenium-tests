@@ -11,7 +11,7 @@ import static com.google.common.truth.Truth.assertThat;
 import static io.restassured.RestAssured.when;
 
 public class ApiPlayerPositionTest extends DefaultHooks {
-    @Test(groups = {"Spelers", "API"}, description = "This test checks if the position of the player is displayed correctly")
+    @Test(groups = {"API"}, description = "This test checks if the position of the player is displayed correctly")
     public void getPlayerPosition() throws InterruptedException {
         final String url = "http://localhost:8080/";
         final String endpoint = "footballers";
@@ -28,9 +28,9 @@ public class ApiPlayerPositionTest extends DefaultHooks {
         boolean testPassed;
         testPassed = spelersAPIPosition.contains(spelerspagePlayerPosition);
         if (testPassed){
-            System.out.println("API en Speler page has the same name test passed");
+            System.out.println("API en Speler page has the same position test passed");
         }else {
-            System.out.println("API en Speler page does not have the same name test failed");
+            System.out.println("API en Speler page does not have the same position test failed");
         }
         assertThat(spelersAPIPosition).contains(spelerspagePlayerPosition);
     }

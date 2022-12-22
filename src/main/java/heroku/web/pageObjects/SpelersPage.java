@@ -15,8 +15,14 @@ public class SpelersPage extends BasePage{
     private WebElement SpelerLastNameText;
     private WebElement SpelersFirstName;
     private WebElement SpelersPositionText;
-    //private Select MatchesSelector = new Select(driver.findElement(By.xpath("//*[@id=\"left-side-content\"]/mat-form-field/div/div[1]")));
-    //private By matchInfoText = By.xpath("//*[@id=\"left-side-content\"]/p");
+    private WebElement SpelerStrongFootText;
+    private By matchSelector = By.xpath("//*[@id=\"left-side-content\"]/mat-form-field/div/div[1]");
+    private By firstMatchOption = By.xpath("//*[@id=\"mat-option-0\"]/span");
+    private By secondMatchOption = By.xpath("//*[@id=\"mat-option-1\"]/span");
+    private By thirdMatchOption = By.xpath("//*[@id=\"mat-option-2\"]/span");
+    private By fourthMatchOption = By.xpath("//*[@id=\"mat-option-3\"]/span");
+    private By fifthMatchOption = By.xpath("//*[@id=\"mat-option-4\"]/span");
+    private By matchInfoText = By.xpath("//*[@id=\"left-side-content\"]/p");
 
     public SpelersPage(WebDriver driver) {
         super(driver, "players");
@@ -111,18 +117,80 @@ public class SpelersPage extends BasePage{
         return positionSpelersWebElement.getText();
     }
 
-    /*public void selectFirstMatch() throws InterruptedException {
+    public String getPlayerStrongFoot() throws InterruptedException {
         Thread.sleep(1000);
-        MatchesSelector.selectByIndex(0);
-        MatchesSelector.selectByIndex(1);
+        SpelerStrongFootText = driver.findElement(By.xpath("//*[@id=\"left-side-content\"]/mat-list/mat-list-item[10]/span/span[4]"));
+        WebElement strongfootSpelersWebElement = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        SpelerStrongFootText
+                )
+        );
+        return strongfootSpelersWebElement.getText();
     }
 
-    public String getMatchInfo() throws InterruptedException {
+    public void ClickMatchSelector(){
+        WebElement matchesElement = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        matchSelector
+                ));
+        matchesElement.click();
+    }
+
+    public void ClickFirstMatchOption(){
+        ClickMatchSelector();
+        WebElement firstMatchElement = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        firstMatchOption
+                ));
+        firstMatchElement.click();
+    }
+
+    public void ClickSecondMatchOption() throws InterruptedException {
+        ClickMatchSelector();
+        Thread.sleep(1000);
+        WebElement secondMatchElement = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        secondMatchOption
+                ));
+        secondMatchElement.click();
+    }
+
+    public void ClickThirdMatchOption() throws InterruptedException {
+        ClickMatchSelector();
+        Thread.sleep(1000);
+        WebElement thirdMatchElement = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        thirdMatchOption
+                ));
+        thirdMatchElement.click();
+    }
+
+    public void ClickFourthMatchOption() throws InterruptedException {
+        ClickMatchSelector();
+        Thread.sleep(1000);
+        WebElement fourthMatchElement = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        fourthMatchOption
+                ));
+        fourthMatchElement.click();
+    }
+
+    public void ClickFifthMatchOption() throws InterruptedException {
+        ClickMatchSelector();
+        Thread.sleep(1000);
+        WebElement fifthMatchElement = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        fifthMatchOption
+                ));
+        fifthMatchElement.click();
+    }
+
+    public String printMatchInfo() throws InterruptedException {
         Thread.sleep(1000);
         WebElement matchInfoElement = driver.findElement(matchInfoText);
         return matchInfoElement.getText();
     }
-*/
+
     public String getURL(){
         return driver.getCurrentUrl();
     }

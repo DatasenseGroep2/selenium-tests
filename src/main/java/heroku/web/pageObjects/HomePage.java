@@ -7,12 +7,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class HomePage extends BasePage{
     private By navBar = By.cssSelector(".mat-icon");
-    private By logoutBtn = By.cssSelector(".icon-signout");
     private By homeLinkButton = By.linkText("Home");
     private By spelersLinkButton = By.linkText("Spelers");
     private By registerLinkButton = By.linkText("Registratie");
-
     private By clubImage = By.cssSelector("img:nth-child(2)");
+
     public HomePage(WebDriver driver) {
         super(driver, "home");
     }
@@ -55,11 +54,6 @@ public class HomePage extends BasePage{
                         clubImage
                 ));
         return imageWebElement.toString().contains("img");
-    }
-
-    public void logout() {
-        WebElement logoutBtnElement = driver.findElement(logoutBtn);
-        logoutBtnElement.click();
     }
 
     public String getURL(){

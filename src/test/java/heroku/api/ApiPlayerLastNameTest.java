@@ -11,7 +11,7 @@ import static com.google.common.truth.Truth.assertThat;
 import static io.restassured.RestAssured.when;
 
 public class ApiPlayerLastNameTest extends DefaultHooks {
-    @Test(groups = {"API", "Spelers"}, description = "This test controls if the API and the frontend show the same data")
+    @Test(groups = {"API"}, description = "This test controls if the API and the frontend show the same data")
     public void APIGivesCorrectDataLastNamePlayer() throws InterruptedException {
         final String url = "http://localhost:8080/";
         final String endpoint = "footballers";
