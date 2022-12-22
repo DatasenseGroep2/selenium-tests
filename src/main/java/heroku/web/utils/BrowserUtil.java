@@ -6,6 +6,7 @@ import io.github.bonigarcia.wdm.managers.FirefoxDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BrowserUtil {
 
@@ -18,7 +19,11 @@ public class BrowserUtil {
         switch (browserType){
             case "chrome":
                 ChromeDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+                options.addArguments("--headless");
+                driver = new ChromeDriver(options);
                 break;
             case "firefox":
                 FirefoxDriverManager.firefoxdriver().setup();
